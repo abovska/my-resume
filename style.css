@@ -1,0 +1,124 @@
+/* GLOBAL STYLES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #f4f7fc;
+  color: #333;
+}
+
+/* HEADER */
+.header {
+  padding: 20px;
+  text-align: center;
+  background: #6f97cf;
+  color: white;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+/* LAYOUT */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 30%;
+  background: white;
+  box-shadow: 0 6px 16px rgba(146,178,224,0.4);
+}
+
+.profile h2 {
+  padding: 15px;
+}
+
+.contact {
+  padding: 15px;
+  line-height: 1.8;
+  color: #333;
+}
+
+.sidebar h3 {
+  padding: 0 15px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.sidebar p {
+  padding: 0 15px;
+  margin: 8px 0;
+}
+
+/* MAIN CONTENT */
+.content {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  box-shadow: 0 6px 16px rgba(146,178,224,0.35);
+}
+
+.card h2 {
+  margin-bottom: 20px;
+  color: #92b2e0;
+}
+
+.job, .edu {
+  margin-bottom: 15px;
+}
+
+.date {
+  display: block;
+  color: #6f97cf;
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #e3ebf8;
+  margin: 15px 0;
+}
+
+/* FOOTER */
+footer {
+  background: #6f97cf;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.social i {
+  margin: 8px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* SKILLS BADGES */
+.skill-badge {
+  display: inline-block;
+  background-color: #92b2e0; /* matches Education/Work Experience headings */
+  color: white;
+  padding: 4px 10px;
+  margin: 3px 5px 3px 0;
+  border-radius: 12px;
+  font-size: 0.9em;
+  font-weight: 500;
+}
